@@ -15,7 +15,8 @@ on sale, what's in the Mythic Essence shop, and tells you when something on your
 - Light and quick: one small program, no account, no sign-in.
 
 ## Download
-Get **`SkinTracker.exe`** from the [latest release](../../releases/latest) and double-click it.
+Open the [Releases page](../../releases), pick the newest version and download **`SkinTracker.exe`** from *Assets*, then double-click it.
+(GitHub's "latest release" link skips beta versions, so use the list.)
 Requirements: Windows 10/11, Microsoft Edge (preinstalled) or Chrome, and the League client open for your own data.
 
 ### "Windows protected your PC"
@@ -28,6 +29,10 @@ file on the release page:
 ```
 
 The app updates itself: when a new version is out, **Settings → Updates** offers it.
+
+## Something broken?
+Open an [issue](../../issues/new/choose) (a form guides you). The fastest help: in the app go to **Settings → Health → Copy diagnostics**
+and paste the text. It contains versions, check results and the last log lines, but no Riot ID, item names or other personal data.
 
 ## Privacy
 No telemetry, no account, nothing about you is sent anywhere. See [PRIVACY.md](PRIVACY.md).
