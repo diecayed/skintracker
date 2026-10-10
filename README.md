@@ -10,8 +10,10 @@ on sale, what's in the Mythic Essence shop, and tells you when something on your
   "Recently acquired" view grouped by year.
 - **Shop** – the client's store: discounted items, skins, chromas, emotes, summoner icons and ward skins.
 - **Mythic Shop** – featured, bi-weekly, weekly and daily rotations, with your Mythic Essence balance.
+- **Profile** – your icon, level and profile background; switch between several of your own accounts (each has its own wishlist).
 - **Wishlist & notifications** – ♥ anything you don't own; get told when it's discounted or in the Mythic Shop,
   and when a PBE skin goes live.
+- **Health check** – see at a glance if something stopped working after a Riot change.
 - Light and quick: one small program, no account, no sign-in.
 
 ## Download

@@ -52,6 +52,7 @@
       <h3>For your account</h3>
       <ul>
         <li><b>Collection</b> – every skin and chroma by champion, with what you own, rarity, PBE-only skins and a "recently acquired" view by year.</li>
+        <li><b>Profile</b> – your icon, level and profile background; switch between several of your own accounts, each with its own wishlist.</li>
         <li><b>Wishlist &amp; notifications</b> – ♥ items you don't own and get told when they go on sale or appear in the Mythic Shop, and when a PBE skin goes live.</li>
       </ul>
     </div>
@@ -60,6 +61,7 @@
       <ul>
         <li><b>Shop</b> – the client's store: discounted items, skins, chromas, emotes, summoner icons and ward skins.</li>
         <li><b>Mythic Shop</b> – featured, bi-weekly, weekly and daily rotations with your Mythic Essence balance.</li>
+        <li><b>Health check</b> – one screen that tells you if something stopped working after a Riot change.</li>
         <li><b>Updates</b> – the app checks for new versions and can update itself when you press <i>Update now</i>.</li>
       </ul>
     </div>
@@ -94,14 +96,15 @@
       It reads your data from the League Client API (LCU) that your client already exposes locally, with read-only requests:</p>
     <table>
       <tr><th>League Client endpoint</th><th>Used for</th></tr>
-      <tr><td><code>/lol-summoner/v1/current-summoner</code></td><td>your Riot ID (shown in Settings)</td></tr>
+      <tr><td><code>/lol-summoner/v1/current-summoner</code></td><td>your Riot ID, level and profile icon</td></tr>
+      <tr><td><code>/lol-summoner/v1/current-summoner/summoner-profile</code></td><td>your profile background</td></tr>
       <tr><td><code>/lol-inventory/v2/inventory/{CHAMPION_SKIN, EMOTE, SUMMONER_ICON, WARD_SKIN, COMPANION}</code></td><td>what you own</td></tr>
       <tr><td><code>/lol-inventory/v1/wallet</code></td><td>RP, Blue Essence and Mythic Essence balances</td></tr>
       <tr><td><code>/lol-store/v1/catalog</code></td><td>store listings, prices and discounts</td></tr>
       <tr><td><code>/lol-shoppefront/v1/stores</code></td><td>Mythic Shop rotations</td></tr>
     </table>
     <p class="muted" style="margin:12px 0 0">Public game data and images come from <a href="https://www.communitydragon.org">CommunityDragon</a>; updates are checked and downloaded from GitHub.
-      Everything it stores (a cache, a snapshot of your last inventory, your wishlist and notifications) stays in <code>%APPDATA%\SkinTracker</code>.
+      Everything it stores (a cache, a saved snapshot of each League account you opened, your wishlist and notifications) stays in <code>%APPDATA%\SkinTracker</code>.
       Details: <a href="https://diecayed.github.io/skintracker/PRIVACY.html">privacy notice</a> · <a href="https://diecayed.github.io/skintracker/EULA.html">license terms</a>.</p>
   </div>
 </main>
