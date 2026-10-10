@@ -35,9 +35,9 @@ Open an [issue](https://github.com/diecayed/skintracker/issues/new/choose) (a fo
 and paste the text. It contains versions, check results and the last log lines, but no Riot ID, item names or other personal data.
 
 ## Privacy
-No telemetry, no account, nothing about you is sent anywhere. See [PRIVACY.md](https://github.com/diecayed/skintracker/blob/main/PRIVACY.md).
+No telemetry, no account, nothing about you is sent anywhere. See [PRIVACY.md](https://diecayed.github.io/skintracker/PRIVACY.html).
 
 ## Not affiliated with Riot Games
 Skin Tracker isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
 Skin Tracker only reads data from your own client; it never changes anything in the game.
-Use is covered by the [license terms](https://github.com/diecayed/skintracker/blob/main/EULA.md).
+Use is covered by the [license terms](https://diecayed.github.io/skintracker/EULA.html).
