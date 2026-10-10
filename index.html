@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Skin Tracker – a free League of Legends skin collection tracker</title>
+<meta name="description" content="Skin Tracker is a free Windows companion for League of Legends players: see your skin and chroma collection, store discounts and the Mythic Shop, keep a wishlist. It only reads data from your own client.">
+<link rel="icon" href="favicon.ico">
+<style>
+  :root{--bg:#0d1117;--panel:#161b22;--line:#2a323d;--text:#e6edf3;--muted:#8b97a5;--gold:#c8aa6e;--ok:#3fb950}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 "Segoe UI",system-ui,sans-serif}
+  a{color:var(--gold)}
+  main{max-width:860px;margin:0 auto;padding:48px 20px 24px}
+  h1{margin:0 0 6px;font-size:40px;letter-spacing:.3px}
+  h1 span{color:var(--gold)}
+  .beta{display:inline-block;margin-left:10px;padding:2px 12px;border:1px solid var(--gold);border-radius:14px;color:var(--gold);font-size:13px;font-weight:700;letter-spacing:.08em;vertical-align:middle}
+  .lead{color:var(--muted);font-size:19px;margin:0 0 26px}
+  .cta{display:flex;gap:12px;flex-wrap:wrap;margin:0 0 36px}
+  .btn{display:inline-block;padding:11px 24px;border-radius:8px;border:1px solid var(--gold);color:var(--gold);text-decoration:none;font-weight:700}
+  .btn.main{background:var(--gold);color:#111}
+  .btn:hover{filter:brightness(1.15)}
+  h2{margin:38px 0 10px;font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media (max-width:700px){.cols{grid-template-columns:1fr}h1{font-size:32px}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px 22px}
+  .card h3{margin:0 0 8px;font-size:16px}
+  ul{margin:0;padding-left:20px} li{margin:4px 0}
+  code{background:#1d242d;padding:1px 6px;border-radius:4px;font-size:.9em;word-break:break-all}
+  table{border-collapse:collapse;width:100%;font-size:14px}
+  td,th{border-top:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+  th{color:var(--muted);font-weight:600;border-top:0}
+  .muted{color:var(--muted)}
+  footer{max-width:860px;margin:30px auto 0;padding:22px 20px 48px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+  footer nav{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:14px}
+</style>
+</head>
+<body>
+<main>
+  <h1><span>◆</span> Skin Tracker <span class="beta">BETA</span></h1>
+  <p class="lead">A free Windows companion for League of Legends skin collectors. It shows your own collection, the store's discounts and the Mythic Shop, and lets you keep a wishlist.</p>
+
+  <div class="cta">
+    <a class="btn main" href="https://github.com/diecayed/skintracker/releases">Download for Windows</a>
+    <a class="btn" href="https://github.com/diecayed/skintracker/issues/new/choose">Report a problem</a>
+    <a class="btn" href="https://github.com/diecayed/skintracker/blob/main/PRIVACY.md">Privacy</a>
+  </div>
+
+  <h2>What it does</h2>
+  <div class="cols">
+    <div class="card">
+      <h3>For your account</h3>
+      <ul>
+        <li><b>Collection</b> – every skin and chroma by champion, with what you own, rarity, PBE-only skins and a "recently acquired" view by year.</li>
+        <li><b>Wishlist &amp; notifications</b> – ♥ items you don't own and get told when they go on sale or appear in the Mythic Shop, and when a PBE skin goes live.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>From the store</h3>
+      <ul>
+        <li><b>Shop</b> – the client's store: discounted items, skins, chromas, emotes, summoner icons and ward skins.</li>
+        <li><b>Mythic Shop</b> – featured, bi-weekly, weekly and daily rotations with your Mythic Essence balance.</li>
+        <li><b>Updates</b> – the app checks for new versions and can update itself when you press <i>Update now</i>.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>What it does not do</h2>
+  <div class="card">
+    <ul>
+      <li>It never changes or automates anything in the League client or the game, and gives no in-game advantage.</li>
+      <li>It does not look at other players or matches, and does not rank or predict anything.</li>
+      <li>No betting or gambling, no crypto, no ads, no accounts and <b>no telemetry</b>. Your Riot ID, inventory, balances and wishlist never leave your computer.</li>
+      <li>It does not use the Riot Games API (no API key); it only reads from the League client running on your own PC.</li>
+    </ul>
+  </div>
+
+  <h2>Install</h2>
+  <div class="card">
+    <ol style="margin:0;padding-left:20px">
+      <li>Open the <a href="https://github.com/diecayed/skintracker/releases">Releases page</a>, pick the newest version and download <b>SkinTracker.exe</b> from <i>Assets</i>.</li>
+      <li>Double-click it. One file, no installer. Keep it in a folder you can write to (Downloads, Desktop): the app updates itself by replacing that file.</li>
+      <li>Open the League client and sign in, so the app can read your own data.</li>
+    </ol>
+    <p class="muted" style="margin:14px 0 0">Requires Windows 10/11 and Microsoft Edge (preinstalled) or Chrome.
+      The program isn't code-signed yet, so Windows may show "Windows protected your PC": click <b>More info → Run anyway</b>.
+      Each release lists a SHA-256 checksum so you can verify the download:
+      <code>(Get-FileHash .\SkinTracker.exe -Algorithm SHA256).Hash</code></p>
+  </div>
+
+  <h2>How it works (transparency)</h2>
+  <div class="card">
+    <p style="margin:0 0 10px">Skin Tracker is closed-source freeware. It runs a small web page on your own computer (<code>127.0.0.1</code>) and shows it in a window.
+      It reads your data from the League Client API (LCU) that your client already exposes locally, with read-only requests:</p>
+    <table>
+      <tr><th>League Client endpoint</th><th>Used for</th></tr>
+      <tr><td><code>/lol-summoner/v1/current-summoner</code></td><td>your Riot ID (shown in Settings)</td></tr>
+      <tr><td><code>/lol-inventory/v2/inventory/{CHAMPION_SKIN, EMOTE, SUMMONER_ICON, WARD_SKIN, COMPANION}</code></td><td>what you own</td></tr>
+      <tr><td><code>/lol-inventory/v1/wallet</code></td><td>RP, Blue Essence and Mythic Essence balances</td></tr>
+      <tr><td><code>/lol-store/v1/catalog</code></td><td>store listings, prices and discounts</td></tr>
+      <tr><td><code>/lol-shoppefront/v1/stores</code></td><td>Mythic Shop rotations</td></tr>
+    </table>
+    <p class="muted" style="margin:12px 0 0">Public game data and images come from <a href="https://www.communitydragon.org">CommunityDragon</a>; updates are checked and downloaded from GitHub.
+      Everything it stores (a cache, a snapshot of your last inventory, your wishlist and notifications) stays in <code>%APPDATA%\SkinTracker</code>.
+      Details: <a href="https://github.com/diecayed/skintracker/blob/main/PRIVACY.md">privacy notice</a> · <a href="https://github.com/diecayed/skintracker/blob/main/EULA.md">license terms</a>.</p>
+  </div>
+</main>
+
+<footer>
+  <nav>
+    <a href="https://github.com/diecayed/skintracker/releases">Releases</a>
+    <a href="https://github.com/diecayed/skintracker/issues">Issues</a>
+    <a href="https://github.com/diecayed/skintracker/blob/main/PRIVACY.md">Privacy</a>
+    <a href="https://github.com/diecayed/skintracker/blob/main/EULA.md">License terms</a>
+    <a href="https://github.com/diecayed/skintracker">GitHub</a>
+  </nav>
+  Skin Tracker isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
+</footer>
+</body>
+</html>
