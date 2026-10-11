@@ -10,6 +10,8 @@ on sale, what's in the Mythic Essence shop, and tells you when something on your
   "Recently acquired" view grouped by year.
 - **Shop** – the client's store: discounted items, skins, chromas, emotes, summoner icons and ward skins.
 - **Mythic Shop** – featured, bi-weekly, weekly and daily rotations, with your Mythic Essence balance.
+- **Catalog** – every skin, chroma, champion, emote, summoner icon, ward skin and banner, owned or not, with filters.
+- **Statistics & sharing** – totals, mastery, compare your own accounts, and a shareable picture of your collection.
 - **Profile** – your icon, level and profile background; switch between several of your own accounts (each has its own wishlist).
 - **Wishlist & notifications** – ♥ anything you don't own; get told when it's discounted or in the Mythic Shop,
   and when a PBE skin goes live.

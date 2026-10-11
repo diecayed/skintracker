@@ -11,7 +11,7 @@ stored or sent anywhere.
 
 ## What it stores (on your computer only)
 In `%APPDATA%\SkinTracker`: a cache of game data, a saved snapshot of each League account you opened in the client (so the app still opens when the
-client is closed, and you can switch between your accounts), your wishlist, your notifications, and a small log. Delete the folder to remove all of it.
+client is closed, and you can switch between your accounts), your wishlist (with the prices the app noted for wishlisted items), your notifications, your settings, and a small log. Delete the folder to remove all of it.
 
 ## What it connects to
 | Where | Why | What is sent |
